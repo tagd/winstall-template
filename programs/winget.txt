@@ -1,0 +1,76 @@
+;;; List of program I install with winget
+; Ensure winget is installed then:
+; place this file in winget-package-install and run the powershell script 
+; If you want to know if winget has a program either winget search <progname>
+; or look on https://winstall.app/
+Git.Git
+Github.GitHubDesktop ;msi doesn't work if git has been installed in the past
+Lexikos.AutoHotKey
+Bitwarden.Bitwarden
+Mozilla.Firefox
+7zip.7zip
+Microsoft.PowerToys
+Microsoft.Teams
+;Spotify.Spotify ;current sig is wrong, install manually
+GNU.Emacs
+;Google.BackupAndSync ;used to exist but doesn't anymore
+Files-Community.files
+
+;; Things I often install, un-comment to install
+;ColdTurkeySoftware.ColdTurkeyBlocker
+;Adobe.AdobeAcrobatReaderDC
+;TUG.TeXLive
+;pdfsam.pdfsam
+;LibreOffice.LibreOffice
+;Microsoft.WindowsTerminal -s msstore
+;Microsoft.VisualStudioCode.System-x64
+;bluemaxima.FlashpointInfinity
+;Logitech.Options
+;Garmin.Express
+;MongoDB.Compass.Community
+;Telegram.TelegramDesktop
+;Zoom.Zoom
+;OBSProject.OBSStudio
+;Microsoft.VisualStudio.Community
+;JohnMacFarlane.Pandoc
+;Putty.Putty
+;NoMachine.NoMachine
+;Notepad++.Notepad++
+;OpenVPNTechnologies.OpenVPN
+;Oracle.VirtualBox
+;Anaconda.Anaconda3
+;grammarly.grammarlyforoffice
+;calibre.calibre
+;Graphviz.Graphviz
+;Oracle.JavaRuntimeEnvironment
+;Python.Python
+;JetBrains.PyCharm.Community
+;JetBrains.IntelliJIDEA.Community
+;WinSCP.WinSCP
+;SublimeHQ.SublimeText
+;Arduino.Arduino    ;ArduinoLLC.ArduinoIDE
+;Zotero.Zotero
+;Anki.Anki
+;Discord.Discord
+;GIMP.GIMP
+;Google.Chrome
+;Inkscape.Inkscape
+;Insecure.Nmap
+;JFLarvoire.Ag ;(The silver searcher)
+;Microsoft.Edge
+;Microsoft.PowerShell
+;Microsoft.WindowsSDK
+;TeamViewer.TeamViewer
+;TeamViewer.TeamViewerHost
+;TorProject.TorBrowser
+;Valve.Steam
+;WiresharkFoundation.Wireshark
+;WolframResearch.WolframEngine
+;WhatsApp.WhatsApp
+;VideoLAN.VLC
+;grammarly.GrammarlyForWindows
+;Rufus.Rufus
+;RescueTime.RescueTime
+;SumatraPDF.SumatraPDF ;I use alt version
+;StefanMalzner.Franz
+;Rambox.RamboxCE

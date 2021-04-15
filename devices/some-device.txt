@@ -1,0 +1,14 @@
+;;;Device Specific setup instruction
+; This is an example
+; I usually write a setup file for each device(laptop, printer etc), 
+; Currently this file is psudocode based on emacs use-package, see the README.md for more details
+; if the device includes hard to find drivers I may include a link to where I've got them stored
+; You may just have this folder in with you main install, I keep it seperate as I change device frequently
+
+radeon-drivers(
+:comment (Install from manufacturer is reccomended over AMD's site)
+:source (https://support.hp.com/gb-en/drivers/selfservice/hp-probook-x360-435-g7-notebook-pc/32611820/model/38461279?sku=1F3H8EA)
+:config (
+(Mode (Standard)
+(display settings(adaptive-refresh-rate t)))
+)

@@ -1,0 +1,27 @@
+;;; The settings I apply on windows
+
+(settings
+  :config 
+  (default_apps (tednotepad: .txt)
+  (clipboard-settings (enable-history t))
+  (multi-tasking-settings 
+    (alt+tab-shows= open windows only
+     taskbar = all open windows
+     alt+tab-shows-open-windows = on this desktop only))
+  (developer-settings (developer-mode t))
+  (Themes
+   (set-background t
+    desktop-icon-settings(
+     (recycling-bin f)))
+  (change-what-closing-lid-does
+    (hibernate t
+     When-I-close-the-lid hibernate))
+  (file-explorer-settings
+    (view
+      (show-hidden-files
+       file-extensions t)))
+  (pc-name (rename-pc <somename>)
+)
+
+;;; take a look here for more things you may wish to change
+;; https://wethegeek.com/windows-10-features-that-are-safe-to-disable/

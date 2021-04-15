@@ -1,0 +1,6 @@
+[submodule "winget-package-install"]
+	path = winget-package-install
+	url = https://gist.github.com/tagd/4cf446956a0d8d516173ef4b35ac8756
+[submodule "setup"]
+	path = setup
+	url = https://gist.github.com/tagd/ca71d387876a26772e05a64ed5229a9d
