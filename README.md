@@ -1,6 +1,9 @@
 # winstall-template
  I reinstall windows more frequently than any sane person should, so I created this template to routinize the process of settings configuration, cleaning pre-installed [junk](https://github.com/Sycnex/Windows10Debloater) and installing programs with [winget](https://github.com/microsoft/winget-cli)
 
+## Installation
+Click `use-this-template` top right and customise for your usage.
+
 ## Usage
 
 ### Cleaning windows junk
