@@ -4,7 +4,7 @@
 ; If you want to know if winget has a program either winget search <progname>
 ; or look on https://winstall.app/
 Git.Git
-Github.GitHubDesktop ;msi doesn't work if git has been installed in the past
+Github.GitHubDesktop ;msi doesn't work if already been installed
 Lexikos.AutoHotKey
 Bitwarden.Bitwarden
 Mozilla.Firefox
@@ -12,17 +12,17 @@ Mozilla.Firefox
 Microsoft.PowerToys
 Microsoft.Teams
 ;Spotify.Spotify ;current sig is wrong, install manually
+ColdTurkeySoftware.ColdTurkeyBlocker
+Adobe.AdobeAcrobatReaderDC
 GNU.Emacs
-;Google.BackupAndSync ;used to exist but doesn't anymore
-Files-Community.files
+;Google.BackupAndSync ;cant be found?
+TUG.TeXLive;issues
+Files-Community.files;didn't works?
+pdfsam.pdfsam;didn't work
+LibreOffice.LibreOffice
+Microsoft.WindowsTerminal; -s msstore need to add source first
 
 ;; Things I often install, un-comment to install
-;ColdTurkeySoftware.ColdTurkeyBlocker
-;Adobe.AdobeAcrobatReaderDC
-;TUG.TeXLive
-;pdfsam.pdfsam
-;LibreOffice.LibreOffice
-;Microsoft.WindowsTerminal -s msstore
 ;Microsoft.VisualStudioCode.System-x64
 ;bluemaxima.FlashpointInfinity
 ;Logitech.Options

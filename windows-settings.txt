@@ -1,13 +1,14 @@
 ;;; The settings I apply on windows
-
+;;; Make sure if device manufacturer provided windows settings to install these first or things will be reset
 (settings
   :config 
   (default_apps (tednotepad: .txt)
-  (clipboard-settings (enable-history t))
+  (clipboard-settings (clipboard-history t))
   (multi-tasking-settings 
-    (alt+tab-shows= open windows only
-     taskbar = all open windows
-     alt+tab-shows-open-windows = on this desktop only))
+    (alt+tab open windows only
+     Virtual-desktops(
+       taskbar all-desktops
+       alt+tab only-desktop-im-using)))
   (developer-settings (developer-mode t))
   (Themes
    (set-background t
@@ -21,7 +22,18 @@
       (show-hidden-files
        file-extensions t)))
   (pc-name (rename-pc <somename>)
+  (finger-print-signin setup)
 )
+
+(Taskbar
+unpin all
+right click(
+search hidden
+ink-workspace hidden
+task-view hidden
+toolbars > desktop
+lock-the-taskbar t
+))
 
 ;;; take a look here for more things you may wish to change
 ;; https://wethegeek.com/windows-10-features-that-are-safe-to-disable/

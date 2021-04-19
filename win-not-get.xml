@@ -1,0 +1,47 @@
+<ApplicationList>
+  <Application>
+    <Name>winaero Tweaker</Name>
+    <FileUrl>http://winaero.com/</FileUrl>
+    <Comment>import tweaks from settings, configure advanced appearance options too</Comment>
+  </Application>
+
+  <Application>
+    <Name>classic sticky notes</Name>
+    <FileUrl>https://win7games.com/download/ClassicStickyNotes.zip</FileUrl>
+  </Application>
+
+  <Application>
+    <Name>google backup and sync</Name>
+    <FileUrl>https://www.google.com/drive/download/</FileUrl>
+    <Comment>may be on winget</Comment>
+  </Application>
+
+  <Application>
+    <Name>x-mouseButtonControl</Name>
+    <FileUrl>https://www.highrez.co.uk/scripts/download.asp?package=XMouse</FileUrl>
+  </Application>
+
+  <Application>
+    <Name>Ted notepad</Name>
+    <FileUrl>http://jsimlo.sk/notepad/</FileUrl>
+    <Comment>set as default .txt</Comment>
+  </Application>
+
+  <Application>
+    <Name>Rambox pro</Name>
+    <FileUrl>https://rambox.app/api/download</FileUrl>
+  </Application>
+
+  <Application>
+    <Name>Windows Store apps</Name>
+    <FileNames>
+      appinstaller (update)
+      D-day countdown-pro
+      GlobalProtect(Paloalto')
+      Sloths Premium
+      quicklook
+    </FileNames>
+    <Comment>Syntax of this one is bad I was just feeling lazy.</Comment>
+  </Application>
+
+</ApplicationList>

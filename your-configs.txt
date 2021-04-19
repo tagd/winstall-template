@@ -1,54 +1,12 @@
-;;Non-winget or store installs
-
-(classic sticky notes
-:source
-https://winaero.com/old-classic-sticky-notes-for-windows-10-version-1809/)
-
-(google backup and sync
-:comment 
-was on winget
-:source
-https://www.google.com/drive/download/
-:config
-create G:/gdrive and sync here
-)
-
 (x-mouseButtonControl
-:source
-(https://www.highrez.co.uk/downloads/XMouseButtonControl.htm)
 :config 
 (config_file)
 )
-(ted-notepad
-:source http://jsimlo.sk/notepad/
-:config
-(setq windows_settings(txt)))
 
 (rambox-pro
-:comment 
-lite on winget
-:source
-https://rambox.app/#pricing
 :config
 (settings > (show in tray icon, startup:minimised)
 )
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Microsoft store installs 
-
-(ms-store
-:init
-install (
-D-day countdown-pro
-GlobalProtect(Paloalto')
-)
-update (
-appinstaller ;installs winget
-))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;Requires winget and install script run
-;; Config winget apps
 
 (powertoys
 :config
@@ -70,26 +28,12 @@ Add a shortcut to the script to this file)
 (login)
 settings>open in background)
 
+(coldturkey
+:config
+(blocks_file))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;; Extensions:
-;;General
-UBlock Origin(https://github.com/gorhill/uBlock)
-Video speed controller(https://github.com/codebicycle/videospeed)
-Bitwarden(https://bitwarden.com/download/)
-Newsfeed irradicator(https://github.com/jordwest/news-feed-eradicator)
-
-;; Edge (Chromium)
-Cold turkey(https://getcoldturkey.com/support/extensions/edge/)
-DF youtube(https://chrome.google.com/webstore/detail/df-tube-distraction-free/mjdepdfccjgcndkmemponafgioodelna)
-
-;; Firefox
-Cold turkey(https://getcoldturkey.com/support/extensions/firefox/)
-DF Youtube(https://addons.mozilla.org/en-US/firefox/addon/df-youtube/)
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;; see device specific install's in devices
-
-
+(bitwarden
+:config
+unlock-w-pin t
+unlock-w-windows-hello t
+close-to-tray-icon t)

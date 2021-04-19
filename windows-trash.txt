@@ -1,0 +1,50 @@
+///Suggested first actions based on:
+//see device Usage in settings :installed as work mode(?) https://www.bleepingcomputer.com/news/microsoft/windows-10-will-soon-let-you-tell-microsoft-how-you-use-your-pc/
+
+
+(WindowsFeatures
+:config
+(ALL f
+.NET 3.5 (dont change)
+.NET 4.8 t
+if pro(
+Hyper-v t
+Microsoft Defender Application Guard
+virtualmachine platform?
+windows hyper-v?
+)))
+
+(Optional-features
+:config
+(remove all))
+
+(AddorRemovePrograms
+:init
+(Remove (3dviewer
+Stickynotes
+Xbox-live
+xobx-console-companion
+weather
+voice recorder
+groovemusic
+tips
+skype
+paint3d
+feedback hub
+films and tv
+mail and calender
+solitaire collection
+Onenote-for-windows10
+Office(using libre)
+sketchandsnip(or change notifications settings, no popup and silent)
+mixed reality portal
+)));install powershell from store remove windows powershell
+
+
+
+(startupsetting
+:config
+show suggestion occasionaly on start f)
+
+Notifications & actions 
+//todo
